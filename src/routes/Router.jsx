@@ -4,7 +4,10 @@ import Loading from "../components/common/loading/Loading";
 const Home = lazy(() => import("../pages/Home"));
 const Main = lazy(() => import("../layouts/Main"));
 
-const repoName = import.meta.env.VITE_REPO_NAME || "hamdy-portofolio";
+// Use Vite's BASE_URL which is automatically set from vite.config.js base option
+// Remove trailing slash for router basename
+const basePath = import.meta.env.BASE_URL || "/hamdy-portofolio/";
+const basename = basePath.endsWith("/") ? basePath.slice(0, -1) : basePath;
 
 export const router = createBrowserRouter(
   [
@@ -23,5 +26,5 @@ export const router = createBrowserRouter(
       ],
     },
   ],
-  { basename: `/${repoName}` }
+  { basename }
 );
