@@ -11,8 +11,10 @@ if (typeof globalThis.structuredClone !== "function") {
 // https://vite.dev/config/
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), "");
+  // Use repo name from env or fallback to hardcoded value for GitHub Pages
+  const repoName = env.VITE_REPO_NAME || "hamdy-portofolio";
   return {
-    base: `/${env.VITE_REPO_NAME}/`,
+    base: `/${repoName}/`,
     plugins: [react(), tailwindcss()],
     server: {
       open: true,
