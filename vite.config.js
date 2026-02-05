@@ -12,7 +12,7 @@ if (typeof globalThis.structuredClone !== "function") {
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), "");
   return {
-    base: "/hamdy-hamdy-portofolio",
+    base: "/hamdy-portofolio",
     plugins: [react(), tailwindcss()],
     server: {
       open: true,
