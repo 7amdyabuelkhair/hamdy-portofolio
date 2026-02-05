@@ -12,7 +12,7 @@ if (typeof globalThis.structuredClone !== "function") {
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), "");
   return {
-    base: `/${env.VITE_REPO_NAME}/`,
+    base: "/https://github.com/7amdyabuelkhair/hamdy-portofolio/",
     plugins: [react(), tailwindcss()],
     server: {
       open: true,
