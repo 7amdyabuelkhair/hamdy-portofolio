@@ -1,6 +1,10 @@
 {
+<<<<<<< HEAD
     "homepage": "https://7amdyabuelkhair.github.io/hamdy-portofolio/",
+=======
+>>>>>>> ca3ca6dabaa49b83a818c485c047e8bf0897a305
     "name": "portfolio",
+    "homepage": "https://7amdyabuelkhair.github.io/hamdy-portofolio/",
     "private": true,
     "version": "0.0.0",
     "type": "module",
