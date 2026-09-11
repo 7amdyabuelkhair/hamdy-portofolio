@@ -25,16 +25,27 @@ const projectData = [
     link: "https://7amdyabuelkhair.github.io/Al-Attar/",
   },
 
-  {
-    id: 4,
-    image: card4,
-    category: "Full-Stack Development",
-    title: "Amplyopia",
-    description:
-      "Developed an interactive platform that leverages technology to enhance accessibility and visual engagement, featuring a responsive design, intuitive navigation, and optimized performance across devices. (ISEF Project)",
-    link: "https://amplyopia.com/",
-  },
- 
+{
+  id: 4,
+  image: card4,
+  category: "Full-Stack Development",
+  title: "Amplyopia",
+  description:
+  "Developed an interactive platform that leverages technology to enhance accessibility and visual engagement, featuring a responsive design, intuitive navigation, and optimized performance across devices. (ISEF Project)",
+
+  link: "https://amplyopia.com/",
+},
+
+{
+  id: 5,
+image: card5,
+  category: "Front-End Development",
+  title: "Top Trust",
+  description:
+  "Designed and developed a modern, responsive website for Top Trust, showcasing metal products and industrial materials through a clean interface, intuitive navigation, and a professional user experience.",
+
+  link: "https://toptrustco.com/",
+},
 ];
 
 const Portfolio = () => {
