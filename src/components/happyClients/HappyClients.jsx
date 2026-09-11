@@ -159,7 +159,16 @@ const brandLogos = [
   </>,
 ];
 
-const clientImages = [card1, card2, card4, card1, card2, card4];
+const clientImages = [
+  card1,
+  card2,
+  card4
+  card5,
+  card1,
+  card2,
+  card4,
+  card5,
+];
 
 const HappyClients = () => {
   return (
