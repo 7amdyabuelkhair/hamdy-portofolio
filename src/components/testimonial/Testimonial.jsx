@@ -29,7 +29,16 @@ const testimonialData = [
     name: "Mostafa Al-Attarq",
     designation: "CEO, Al-Attar",
   },
+  {
+  message:
+    "The website was modern, professional, and perfectly reflected our brand.",
+  quote: `Hamdy understood our vision and turned it into a clean and professional website that represents Top-Trust exactly the way we wanted. We are very satisfied with the final result.`,
+
+  name: "Ahmed Ismail",
+  designation: "CEO, Top-Trust",
+},
 ];
+
 
 const Testimonial = () => {
   return (
